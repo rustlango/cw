@@ -2,7 +2,7 @@
 // Make me compile!
 // Execute `rustlings hint variables1` or use the `hint` watch subcommand for a hint.
 
-// I AM DONE WITH THIS EXERCISE
+// I AM DONE
 
 fn main() {
     let x = 5;
