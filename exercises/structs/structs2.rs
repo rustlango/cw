@@ -38,6 +38,7 @@ mod tests {
         let your_order = Order {
             name: String::from("Hacker in Rust"),
             count: 1,
+            // shortcut use the rest to "clone" the elements of another struct
             ..order_template
         };
 

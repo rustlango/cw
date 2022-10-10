@@ -36,7 +36,7 @@ impl Package {
 
     fn get_fees(&self, cents_per_gram: i32) -> i32 {
         // Something
-        // the produuct cents per gram and weight returns fee amount
+        // the product of cents per gram and weight returns fee amount
         return cents_per_gram * self.weight_in_grams
     }
 }
