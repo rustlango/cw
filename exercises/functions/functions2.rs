@@ -7,7 +7,7 @@ fn main() {
     call_me(3);
 }
 
-// insert type annotations for function parameters
+// insert type annotations for function parameters (always do this even with retrun types).
 fn call_me(num: u32) {
     for i in 0..num {
         println!("Ring! Call number {}", i + 1);
