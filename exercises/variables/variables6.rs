@@ -3,7 +3,8 @@
 
 // I AM DONE
 
-// ensure const type annotations
+// const bindings can be decalred outside of a function as oppose to let bindings.
+// however, type must always be annotated when declaring conts bindings
 const NUMBER: i32 = 3;
 fn main() {
     println!("Number {}", NUMBER);
