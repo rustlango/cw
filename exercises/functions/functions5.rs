@@ -10,7 +10,7 @@ fn main() {
 
 fn square(num: i32) -> i32 {
     num * num;
-    // return expression needs to be speicified
-    // can do it expliclity to like return num
+    // return expression needs to be specified
+    // can do it expliclity to return num
     num
 }
